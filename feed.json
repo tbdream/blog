@@ -1,0 +1,86 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "felixbo’s blog",
+    "home_page_url": "https://tbdream.github.io/blog/",
+    "feed_url": "https://tbdream.github.io/blog/feed.json",
+    "description": "This is a blog",
+    "items": [
+        {
+            "id": "https://tbdream.github.io/blog/2018/11/07/frontmatter-in-vuepress-2/",
+            "url": "https://tbdream.github.io/blog/2018/11/07/frontmatter-in-vuepress-2/",
+            "title": "Front Matter in VuePress",
+            "summary": "Any markdown file that contains a YAML front matter block will be processed by gray-matter. The front matter must be the first thing in the markdown f ...",
+            "date_modified": "2018-11-06T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/02/26/markdown-slot-2/",
+            "url": "https://tbdream.github.io/blog/2019/02/26/markdown-slot-2/",
+            "title": "Markdown Slot",
+            "summary": "VuePress implements a content distribution API for Markdown. With this feature, you can split your document into multiple fragments to facilitate flexible composition in the layout component.\n\nWh ...",
+            "date_modified": "2019-02-25T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme-2/",
+            "url": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme-2/",
+            "title": "Writing a VuePress theme",
+            "summary": "To write a theme, create a .vuepress/theme directory in your docs root, and then create a Layout.vue file:\n\n.\n└─ .vuepress\n   └─ theme\n       └─ Layout.vue\n\nFrom there it's the same as ...",
+            "date_modified": "2019-05-05T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2018/11/07/frontmatter-in-vuepress-3/",
+            "url": "https://tbdream.github.io/blog/2018/11/07/frontmatter-in-vuepress-3/",
+            "title": "Front Matter in VuePress",
+            "summary": "Any markdown file that contains a YAML front matter block will be processed by gray-matter. The front matter must be the first thing in the markdown f ...",
+            "date_modified": "2018-11-06T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/02/26/markdown-slot-4/",
+            "url": "https://tbdream.github.io/blog/2019/02/26/markdown-slot-4/",
+            "title": "Markdown Slot",
+            "summary": "VuePress implements a content distribution API for Markdown. With this feature, you can split your document into multiple fragments to facilitate flexible composition in the layout component.\n\nWh ...",
+            "date_modified": "2019-02-25T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/02/26/markdown-slot/",
+            "url": "https://tbdream.github.io/blog/2019/02/26/markdown-slot/",
+            "title": "Markdown Slot",
+            "summary": "VuePress implements a content distribution API for Markdown. With this feature, you can split your document into multiple fragments to facilitate flexible composition in the layout component.\n\nWh ...",
+            "date_modified": "2019-02-25T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/02/26/markdown-slot-3/",
+            "url": "https://tbdream.github.io/blog/2019/02/26/markdown-slot-3/",
+            "title": "Markdown Slot",
+            "summary": "VuePress implements a content distribution API for Markdown. With this feature, you can split your document into multiple fragments to facilitate flexible composition in the layout component.\n\nWh ...",
+            "date_modified": "2019-02-25T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2018/11/07/frontmatter-in-vuepress/",
+            "url": "https://tbdream.github.io/blog/2018/11/07/frontmatter-in-vuepress/",
+            "title": "Front Matter in VuePress",
+            "summary": "Any markdown file that contains a YAML front matter block will be processed by gray-matter. The front matter must be the first thing in the markdown f ...",
+            "date_modified": "2018-11-06T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme-3/",
+            "url": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme-3/",
+            "title": "Writing a VuePress theme",
+            "summary": "To write a theme, create a .vuepress/theme directory in your docs root, and then create a Layout.vue file:\n\n.\n└─ .vuepress\n   └─ theme\n       └─ Layout.vue\n\nFrom there it's the same as ...",
+            "date_modified": "2019-05-05T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme-4/",
+            "url": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme-4/",
+            "title": "Writing a VuePress theme",
+            "summary": "To write a theme, create a .vuepress/theme directory in your docs root, and then create a Layout.vue file:\n\n.\n└─ .vuepress\n   └─ theme\n       └─ Layout.vue\n\nFrom there it's the same as ...",
+            "date_modified": "2019-05-05T16:00:00.000Z"
+        },
+        {
+            "id": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme/",
+            "url": "https://tbdream.github.io/blog/2019/05/06/writing-a-vuepress-theme/",
+            "title": "Writing a VuePress theme",
+            "summary": "To write a theme, create a .vuepress/theme directory in your docs root, and then create a Layout.vue file:\n\n.\n└─ .vuepress\n   └─ theme\n       └─ Layout.vue\n\nFrom there it's the same as ...",
+            "date_modified": "2019-05-05T16:00:00.000Z"
+        }
+    ]
+}
