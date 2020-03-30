@@ -2,8 +2,51 @@ module.exports = {
   title: 'felixbo’s blog',
   description: 'This is a blog',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  base:'/blog/',
+  
+  plugins: [
+    ['@vuepress/blog',
+    {
+      directories: [
+        {
+          // Unique ID of current classification
+          id: 'post',
+          // Target directory
+          dirname: '_posts',
+          // Path of the `entry page` (or `list page`)
+          path: '/',
+        },
+      ],
+      feed: {
+          canonical_base: 'https://tbdream.github.io/blog/',
+         },
+      sitemap: {
+          hostname: 'https://tbdream.github.io/blog/'
+        },
+     
+      frontmatters: [
+        {
+          // Unique ID of current classification
+          id: 'tag',
+          // Decide that the frontmatter keys will be grouped under this classification
+          keys: ['tag'],
+          // Path of the `entry page` (or `list page`)
+          path: '/tag/',
+          // Layout of the `entry page`
+          layout: 'Tags',
+          // Layout of the `scope page`
+          scopeLayout: 'Tag'
+        },
+      ],
+      pagination: {
+         lengthPerPage: 10,
+        },
+     },
+   
+  
+  ]
 
-  plugins: ['@vuepress/blog'],
+],
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
